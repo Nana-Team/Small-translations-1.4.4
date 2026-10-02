@@ -13,6 +13,16 @@ MinimalBoxes: {
 	Description: As simple a box style as you can get
 }
 
+GlassBoxes: {
+	Name: Liquid Glass
+	Description: A transparent and reflective box style
+}
+
+FancyBoxes: {
+	Name: Fancy
+	Description: A box style based on the health and mana bars and the minimap.
+}
+
 DragonLensIcons: {
 	Name: Default
 	Description: The default icons for DragonLens
@@ -60,14 +70,30 @@ Configs: {
 
 	BoxStyle: {
 		Tooltip: ""
-		simple.Label: "{$Mods.DragonLens.BoxStyle.simple}"
-		vanilla.Label: "{$Mods.DragonLens.BoxStyle.vanilla}"
+
+		simple: {
+			Label: "{$Mods.DragonLens.BoxStyle.simple}"
+			Tooltip: ""
+		}
+
+		vanilla: {
+			Label: "{$Mods.DragonLens.BoxStyle.vanilla}"
+			Tooltip: ""
+		}
 	}
 
 	IconStyle: {
 		Tooltip: ""
-		basic.Label: "{$Mods.DragonLens.IconStyle.basic}"
-		HEROs.Label: "{$Mods.DragonLens.IconStyle.HEROs}"
+
+		basic: {
+			Label: "{$Mods.DragonLens.IconStyle.basic}"
+			Tooltip: ""
+		}
+
+		HEROs: {
+			Label: "{$Mods.DragonLens.IconStyle.HEROs}"
+			Tooltip: ""
+		}
 	}
 
 	ToolConfig: {

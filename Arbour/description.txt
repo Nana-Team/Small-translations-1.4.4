@@ -17,3 +17,5 @@ Discord: heltonyan
 
 -- Contributors --
 alinahvoshch (GitHub): Russian localization & fixes
+Lucluz (GitHub): Portuguese localization
+Ningunomas (GitHub): Spanish localization

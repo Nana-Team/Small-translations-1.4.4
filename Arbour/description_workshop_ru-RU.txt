@@ -14,3 +14,8 @@ YouTube: youtube.com/@gabehaswon
 SoundCloud: soundcloud.com/heltonyan
 Twitter: @heltonyan
 Discord: heltonyan
+
+-- Люди, вложившие вклад --
+alinahvoshch (GitHub): русская локализация и исправления
+Lucluz (GitHub): португальская локализация
+Ningunomas (GitHub): испанская локализация

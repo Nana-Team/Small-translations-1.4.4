@@ -1,4 +1,4 @@
-﻿BuffDespawner: {
+BuffDespawner: {
 	DisplayName: Clear buffs
 	Description: Removes all buffs and debuffs from yourself
 }
@@ -20,7 +20,11 @@ ItemDespawner: {
 
 NPCDespawner: {
 	DisplayName: Clear NPCs
-	Description: Removes all hostile NPCs currently in the world. Right click for a more traditional 'butcher'. NEWBLOCK hold SHIFT to clear/butcher friendly NPCs aswell
+	Description:
+		'''
+		Removes all hostile NPCs currently in the world. Right click for a more traditional 'butcher'. 
+		hold SHIFT to clear/butcher friendly NPCs aswell
+		'''
 	RightClickName: Traditional butcher
 }
 
@@ -36,6 +40,7 @@ ShaderCompiler: {
 	Triggered: Triggered shader re-compile...
 	Completed: Shader re-compilation completed in {0} ms
 	Recompiled: Shaders for {0} recompiled!
+	RecompiledError: Failed to compile: {0}
 }
 
 AccessoryTray: {
@@ -60,7 +65,7 @@ ItemEditor: {
 	SetDefaults: Reset (SetDefaults)
 
 	Filters: {
-		FromMod: From mod:
+		FromMod: From mod {0}
 		FromVanilla: From Vanilla
 	}
 
@@ -82,7 +87,23 @@ ItemEditor: {
 
 		UseStyle: {
 			Name: Use Style
-			Description: 0: None NEWLN 1: Swing NEWLN 3: Thrust NEWLN 4: HoldUp NEWLN 5: Shoot NEWLN 6: DrinkLong NEWLN 7: DrinkOld NEWLN 8: GolfPlay NEWLN 9: DrinkLiquid NEWLN 10: HiddenAnimation NEWLN 11: MowTheLawn NEWLN 12: Guitar NEWLN 13: Rapier NEWLN 14: RaiseLamp
+			Description:
+				'''
+				0: None
+				1: Swing
+				3: Thrust 
+				4: HoldUp
+				5: Shoot 
+				6: DrinkLong
+				7: DrinkOld
+				8: GolfPlay
+				9: DrinkLiquid
+				10: HiddenAnimation
+				11: MowTheLawn
+				12: Guitar 
+				13: Rapier
+				14: RaiseLamp
+				'''
 		}
 
 		UseTime: {
@@ -132,7 +153,11 @@ ItemEditor: {
 
 		ProjectileType: {
 			Name: Projectile Type
-			Description: The kind of projectile this item will shoot on use. NEWBLOCK Use the projectile spawner to preview differnet projectile types.
+			Description:
+				'''
+				The kind of projectile this item will shoot on use. 
+				Use the projectile spawner to preview differnet projectile types.
+				'''
 		}
 
 		ShootSpeed: {
@@ -204,7 +229,11 @@ PlayerEditor: {
 
 Difficulty: {
 	DisplayName: Difficulty switcher
-	Description: Cycle through the 3 main game difficulties NEWBLOCK Right click to toggle journey mode
+	Description:
+		'''
+		Cycle through the 3 main game difficulties
+		Right click to toggle journey mode
+		'''
 	RightClickName: Toggle journey mode
 	GameInNormalMode: The game is now in normal mode
 	GameInExpertMode: The game is now in expert mode
@@ -231,6 +260,7 @@ Godmode: {
 InfiniteReach: {
 	DisplayName: Omnipotent building
 	Description: You have infinite reach and can place blocks super quickly
+	SmartСursorWarn: Smart cursor is disabled with omnipotent building
 }
 
 Magnet: {
@@ -261,10 +291,10 @@ Paint: {
 		Content:
 			'''
 			For more useful features, check out the full Structure Helper mod!
-			You'll be able to: NEWLN
-			> Export structures to files! NEWLN
-			> Use null tiles to generate non-square structures! NEWLN
-			> Place chests with custom, random loot pools! NEWLN
+			You'll be able to:
+			> Export structures to files!
+			> Use null tiles to generate non-square structures!
+			> Place chests with custom, random loot pools!
 			> Generate structures in your own mods from files!
 			'''
 		Downloaded: StructureHelper is being downloaded. Return to the main menu and go to the workshop menu to enable it!
@@ -861,14 +891,108 @@ PlayerManager: {
 	TryRemoveYourself: You cannot remove your own permissions!
 	RemoveAdmin: "{0} is no longer an admin."
 	AddAdmin: "{0} is now an admin."
+	AdminNow: You are now an admin.
+	Unadmin: You are no longer an admin.
 
-	InventoryManager: {
-		Inventory: "{0}'s Inventory"
-		Equipment: Equipment
-		Piggy: Piggy bank
-		Safe: Safe
-		DefendersForge: Defenders forge
-		VoidVault: Void vault
+	Refresh: {
+		Name: Refresh
+		Tooltip: Show or hide Refresh button
+		DisplayName: Refresh
+		Description: Refresh all players
+	}
+
+	FilterCategories: {
+		Filter: Filters
+		Team: Team filters
+		Biome: Biome filters
+		ButtonOptions: Button options
+		StatOptions: Stat options
+		BackgroundOptions: Background options
+		PlayerOptions: Player options
+	}
+
+	Filters: {
+		Frozen: {
+			Name: Frozen
+			Description: Any players currently frozen
+			Toggle: Show or hide Freeze button
+		}
+
+		Admin: {
+			Name: Admin
+			Description: Any players with admin permissions
+			Toggle: Show or hide Admin button
+		}
+
+		Dead: {
+			Name: Dead
+			Description: Any dead players
+		}
+
+		LowHealth: {
+			Name: Low Health
+			Description: Any players below half health
+		}
+
+		FullHealth: {
+			Name: Full Health
+			Description: Any players at full health
+		}
+
+		NoTeam: {
+			Name: No Team
+			Description: Any players on no team
+		}
+
+		Red: {
+			Name: Red Team
+			Description: Any players on Red team
+		}
+
+		Green: {
+			Name: Green Team
+			Description: Any players on Green team
+		}
+
+		Blue: {
+			Name: Blue Team
+			Description: Any players on Blue team
+		}
+
+		Yellow: {
+			Name: Yellow Team
+			Description: Any players on Yellow team
+		}
+
+		Pink: {
+			Name: Pink Team
+			Description: Any players on Pink team
+		}
+
+		Kick: {
+			Name: Kick
+			Toggle: Show or hide Kick button
+		}
+
+		View: {
+			Name: Spectate
+			Toggle: Show or hide Spectate button
+		}
+
+		Inventory: {
+			Name: Inventory
+			Toggle: Show or hide Inventory button
+		}
+
+		BringHere: {
+			Name: Bring Here
+			Toggle: Show or hide Bring Here button
+		}
+
+		GoTo: {
+			Name: Go To
+			Toggle: Show or hide Go To button
+		}
 	}
 
 	Admin: {
@@ -882,13 +1006,37 @@ PlayerManager: {
 	}
 
 	View: {
-		Name: View
+		Name: Spectate
 		Tooltip: Move the camera to this players position
 	}
 
 	Inventory: {
 		Name: Inventory
 		Tooltip: View and edit this player's inventories
+	}
+
+	BringHere: {
+		Name: Bring Here
+		Tooltip: Teleport this player to your position
+	}
+
+	GoTo: {
+		Name: Go To
+		Tooltip: Teleport to this player's position
+	}
+
+	Freeze: {
+		Name: Freeze
+		Tooltip: Freeze this player
+	}
+
+	InventoryManager: {
+		Inventory: "{0}'s Inventory"
+		Equipment: Equipment
+		Piggy: Piggy bank
+		Safe: Safe
+		DefendersForge: Defenders forge
+		VoidVault: Void vault
 	}
 
 	Stats:
@@ -898,6 +1046,11 @@ PlayerManager: {
 		Position: {2}
 		Velocity: {3}
 		Alive: {4}
+		'''
+	PlayerTooltip:
+		'''
+		Life: {0}
+		Position: {1}
 		'''
 }
 
@@ -927,7 +1080,7 @@ AssetManager: {
 	}
 
 	Filters: {
-		Mod.Description: Assets from {0}
+		FromMod: Assets from {0}
 
 		Texture: {
 			Name: Texture assets
@@ -945,4 +1098,12 @@ Pause: {
 	DisplayName: Pause
 	Description: Pauses the game. You can right click this tool to advance by a single frame while paused.
 	RightClickName: (Pause) Step single frame
+	MultiplayerWarn: Pause is disabled in multiplayer
+	NotPaused: Cannot step while not paused
+}
+
+SpawnPoint: {
+	DisplayName: Spawn Point
+	Description: Sets your spawn point to your current position.
+	Message: Spawn point set to X: {0}, Y: {1}.
 }

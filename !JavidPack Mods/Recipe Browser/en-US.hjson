@@ -41,7 +41,17 @@ Mods: {
 			EmptyQuerySlotHint: Place item here
 			ShowInheritedRecipes: Show inherited recipes
 			ShowUniqueRecipes: Show unique recipes
+			ShowRecipesThatNeedThisCraftingStation: Viewing recipes that need this tile
+			ShowRecipesThatNeedThisCraftingStationNoInherited: Viewing recipes that need this tile (no inherited recipes)
+			ShowRecipesThatNeedThisCraftingStationHint: (Left click to view recipes that need this tile)
+			ShowRecipesForCraftingStationItself: Viewing recipes that create this tile
+			ShowRecipesForCraftingStationItselfHint: (Right click to view recipes that create this tile)
 			NoTileEntry: " (err no entry)"
+			HistoryBackwardTooltip: Go back in query history
+			HistoryForwardTooltip: Go forward in query history
+			HistoryEmpty: There is no query history yet
+			HistoryReachedStart: Query history start reached
+			HistoryReachedEnd: Query history end reached
 		}
 
 		RecipeCatalogueFilters: {
@@ -56,6 +66,9 @@ Mods: {
 			ExtendedCraftable: Extended Craftable (RMB on Recipe to view, Auto-disables to prevent lag)
 			DisabledRecipes: Show recipes disabled by Mods
 			Unresearched: Unresearched
+			ModFilterByResultItemTooltip: Showing recipes that craft an item from '{0}'
+			ModFilterByRecipeSourceTooltip: Showing recipes added by '{0}'
+			ModFilterByIngredientTooltip: Showing recipes using ingredients from '{0}'
 			All: All
 			RMB: (RMB)
 			RecipesRemainToBeCalculated: recipes remain to be calculated
@@ -251,6 +264,8 @@ Mods: {
 			ByCapturing: by capturing
 			Need: Need
 			Farm: Farm
+			PurchaseFrom: Purchase from
+			DroppedBy: Dropped by
 		}
 
 		ItemCatalogueUI: {
@@ -300,6 +315,10 @@ Mods: {
 			ShowOnlyNPCWithNeverBeforeSeenLoot: Show only NPC with never before seen Loot
 			EmptyQuerySlotHint: Place item here
 			NPCDrops: "{0} drops:"
+			SortBestiary: "{$BestiaryInfo.Sort_BestiaryID}"
+			SortBestiaryTooltip: Sort by {$SortBestiary}
+			SortNPCID: NPC ID
+			SortNPCIDTooltip: Sort by {$SortNPCID}
 		}
 
 		HelpUI: {
@@ -311,7 +330,7 @@ Mods: {
 			Recipes:
 				'''
 				[c/{0}:Recipes]
-				    Place items in the query slot to find recipes using or resulting in that item. You can also search and filter with the various options in the window. The Nearby Chests option filters the recipes to show only recipes that you have at least 1 of each ingredient. The [c/{1}:{$RecipeCatalogueUI.ItemChecklistOnly}] option limits the recipes to only show recipes that result in an item you have never seen using items you have seen. The Tile checkbox brings up a list of crafting stations sorted by most often required. Clicking on a tile limits recipes to recipes using that crafting station. The [image:RecipeBrowser/Images/Help/uniqueTile] Show Unique Recipes option toggles showing inherited recipes. For example, Hellforge inherits all of the Forge recipes, but has the unique Hellstone Bar recipes. Crafting stations and recipe conditions for a selected recipe are listed at the bottom. The color will be red or green showing if the player is near one or not. The right side will show any NPC that drops the selected item. Double Click on an NPC to visit the Bestiary. Double Clicking on a Recipe or Ingredient will populate the query slot with the item, great for traversing crafting trees for items with multiple levels of crafting. Alt-click on a recipe to favorite a recipe, see Favorite section below.
+				    Place items in the query slot to find recipes using or resulting in that item. Use the [image:RecipeBrowser/UIElements/historyBack] and [image:RecipeBrowser/UIElements/historyForward] buttons to explore the query slot history. You can also search and filter with the various options in the window. The Nearby Chests option filters the recipes to show only recipes that you have at least 1 of each ingredient. The [c/{1}:{$RecipeCatalogueUI.ItemChecklistOnly}] option limits the recipes to only show recipes that result in an item you have never seen using items you have seen. The Tile checkbox brings up a list of crafting stations sorted by most often required. Clicking on a tile limits recipes to recipes using that crafting station. Right clicking on a tile will show recipes to create that crafting station, as well as merchants and NPC drops for it. The [image:RecipeBrowser/Images/Help/uniqueTile] Show Unique Recipes option toggles showing inherited recipes. For example, Hellforge inherits all of the Forge recipes, but has the unique Hellstone Bar recipes. Crafting stations and recipe conditions for a selected recipe are listed at the bottom. The color will be red or green showing if the player is near one or not. The right side will show any NPC that drops the selected item. Double Click on an NPC to visit the Bestiary. Double Clicking on a Recipe or Ingredient will populate the query slot with the item, great for traversing crafting trees for items with multiple levels of crafting. Alt-click on a recipe to favorite a recipe, see Favorite section below.
 				'''
 			Craft:
 				'''
@@ -431,9 +450,21 @@ Mods: {
 
 			ShowOtherPlayersFavoritedRecipesOption: {
 				Tooltip: ""
-				ShowAll.Label: Show All
-				ShowTeamOnly.Label: Show Team Only
-				Hide.Label: Hide
+
+				ShowAll: {
+					Label: Show All
+					Tooltip: ""
+				}
+
+				ShowTeamOnly: {
+					Label: Show Team Only
+					Tooltip: ""
+				}
+
+				Hide: {
+					Label: Hide
+					Tooltip: ""
+				}
 			}
 		}
 

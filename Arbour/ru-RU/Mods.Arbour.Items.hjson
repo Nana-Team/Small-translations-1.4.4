@@ -142,3 +142,18 @@ BirchChestBlock: {
 	DisplayName: Берёзовый сундук
 	Tooltip: ""
 }
+
+BirchClockBlock: {
+	DisplayName: Берёзовые напольные часы
+	Tooltip: ""
+}
+
+BirchSinkItem: {
+	DisplayName: Берёзовая раковина
+	Tooltip: ""
+}
+
+BirchSofaItem: {
+	DisplayName: Берёзовый диван
+	Tooltip: ""
+}
