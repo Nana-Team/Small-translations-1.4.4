@@ -1,0 +1,99 @@
+Projectiles: {
+	FeintDagger.DisplayName: Финт кинжалом
+	KylieProjectile.DisplayName: Бумеранг Кайли
+}
+
+# This line is used for all crossmod fixes, which includes, so far: Mr Plague's Custom Races, One Piece Mod
+MrPlaguesCompatLine:
+	'''
+	Нажмите здесь или комбинацию Ctrl+O,
+	 чтобы открыть меню New Beginnings!
+	'''
+# The space in the below key is intentional. If you're translating to a language with spaces, keep it.
+TitleLine: ", [c/8B8B8B:{0}]"
+
+# Used in the Inevitable's snail death.
+SnailDeath: {
+	0: Игрок {0} был слишком медленным.
+	1: В конце концов, игрок {0} оказался недостаточно упорным.
+	2: "{0}... это было неизбежно."
+}
+
+Configs: {
+	NewBeginningsConfig: {
+		DisplayName: Конфигурация
+
+		HealthScaling: {
+			Label: "[i:58] Множитель максимального здоровья"
+			Tooltip:
+				'''
+				Определяет показатель максимального здоровья, получаемого от кристаллов жизни для персонажей, 
+				чьё происхождение влияет на изначальный запас здоровья.
+				В режиме «Стандарт» максимальное возможное здоровье персонажа будет равно 400 ед., независимо от происхождения.
+				В режиме «Фиксированное» максимальное возможное здоровье персонажа будет равно +300 ед. от изначального.
+				В режиме «Относительное» максимальное возможное здоровье персонажа будет равно изначальному запасу здоровья × 4.
+				'''
+		}
+	}
+
+	Scaling: {
+		Tooltip: ""
+
+		Scaled: {
+			Label: Стандарт
+			Tooltip: ""
+		}
+
+		Flat: {
+			Label: Фиксированное
+			Tooltip: ""
+		}
+
+		Relative: {
+			Label: Относительное
+			Tooltip: ""
+		}
+	}
+
+	NewBeginningsClientConfig: {
+		DisplayName: Клиентская конфигурация
+
+		MrPlaguesButtonOffsetY: {
+			Label: Смещение клавиши совместимости
+			Tooltip:
+				'''
+				При использовании модов MrPlague's Authentic Races и One Piece Mod, 
+				под меню создания персонажа появляется кнопка для открытия меню New Beginnings.
+				Эта настройка определяет вертикальное смещение кнопки относительно центра экрана.
+				По умолчанию значение равно 300 и ограничено центром и нижней границей экрана.
+				'''
+		}
+
+		HidePlayerOrigins: {
+			Label: Скрыть отображение происхождения персонажей
+			Tooltip: Происхождение персонажа не будут показываться рядом с его именем в меню выбора персонажа.
+		}
+	}
+}
+
+Achievements: {
+	AccursedAchievement: {
+		FriendlyName: Проклятый
+		Description: Одолейте Стену плоти, используя любое происхождение.
+	}
+
+	BeginnerAchievement: {
+		FriendlyName: Новичок
+		Description: Использовать любое происхождение.
+	}
+
+	RenewedAchievement: {
+		FriendlyName: Обновлённый
+		Description: Одолейте Лунного лорда с включённым New Beginnings.
+	}
+
+	TerrarianAchievement: {
+		FriendlyName: Террариец
+		Description: Одолейте Лунного лорда, используя любое происхождение.
+	}
+}
