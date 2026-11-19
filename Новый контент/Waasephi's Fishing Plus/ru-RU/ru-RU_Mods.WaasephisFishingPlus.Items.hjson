@@ -1,0 +1,956 @@
+FilletItemTooltip: Можно разделать[i:WaasephisFishingPlus/FilletKnife]
+
+FilletingTableItem: {
+	DisplayName: Разделочный стол
+	Tooltip: Используется для разделки рыбы на её составляющие
+}
+
+FilletKnife: {
+	DisplayName: Филейный нож
+	Tooltip: Разрезает рыбу на составляющие
+}
+
+GalacticFilletKnife: {
+	DisplayName: Галактический филейный нож
+	Tooltip:
+		'''
+		Разрезает рыбу на составляющие
+		Справляется с любой рыбой и даёт дополнительные составляющие
+		'''
+}
+
+RefinedFilletKnife: {
+	DisplayName: Обработанный филейный нож
+	Tooltip:
+		'''
+		Разрезает рыбу на составляющие
+		Справляется с большинством рыб
+		'''
+}
+
+OvergrownCrate: {
+	DisplayName: Заросший ящик
+	Tooltip: Нажмите ПКМ, чтобы открыть
+}
+
+CrystalCatcher: {
+	DisplayName: Кристальный рыболов
+	Tooltip: Запускает сразу 3 поплавка
+}
+
+CoralHeart: {
+	DisplayName: Кораловое сердце
+	Tooltip:
+		'''
+		Увеличивает эффекты всех рыбацких баффов и навык рыбной ловли
+		«Рыбалка ещё никогда не была такой простой»
+		'''
+}
+
+HandofCod: {
+	DisplayName: Длань Тресковья
+	Tooltip: "«И это всё, что ты можешь?»"
+}
+
+Prismaline: {
+	DisplayName: Блеска
+	Tooltip:
+		'''
+		Запускает сразу 5 поплавков
+		«Лишь истинный рыбак достоен использовать её»
+		'''
+}
+
+Mecherel: {
+	Tooltip: "«Водится везде»"
+	DisplayName: Скулприя
+}
+
+Garnite: {
+	Tooltip: "«Водится в гранитных пещерах»"
+	DisplayName: Гарнит
+}
+
+RegalScepter: {
+	DisplayName: Воля монарха 
+	Tooltip:
+		'''
+		Запускает сразу 4 поплавка
+		«Удочка, достойная короля»
+		'''
+}
+
+FishFillet: {
+	DisplayName: Рыбное филе
+	Tooltip:
+		'''
+		Умеренно повышает все характеристики
+		Ненадолго увеличивает навык рыбной ловли
+		«Свежая рыбная нарезка»
+		'''
+}
+
+NeonScales: {
+	DisplayName: Сверкающая чешуя
+	Tooltip: Невероятный блеск!
+}
+
+NeonScaleGreaves: {
+	DisplayName: Сверкающие поножи
+	Tooltip:
+		'''
+		Увеличивает навык рыбной ловли на 2
+		Увеличивает скорость передвижения в воде
+		'''
+}
+
+NeonScalemail: {
+	DisplayName: Сверкающий чешуйник
+	Tooltip:
+		'''
+		Увеличивает навык рыбной ловли на 4
+		Наделяет способностью плавать
+		'''
+}
+
+NeonScaleMask: {
+	DisplayName: Сверкающая маска
+	Tooltip:
+		'''
+		Увеличивает навык рыбной ловли на 2
+		Значительно улучшает длительность подводного дыхания
+		'''
+}
+
+SharkTooth: {
+	DisplayName: Акулий зуб
+	Tooltip: Очень острый
+}
+
+SharkToothPickaxe: {
+	DisplayName: Кирка из акульих зубов
+	Tooltip: Так и должно быть
+}
+
+TrawlerHat: {
+	DisplayName: Шляпа тальмана
+	Tooltip: Увеличивает навык рыбной ловли на 10
+}
+
+TrawlerPants: {
+	DisplayName: Штаны тальмана
+	Tooltip: Увеличивает навык рыбной ловли на 10
+}
+
+TrawlerVest: {
+	DisplayName: Жилет тальмана
+	Tooltip: Увеличивает навык рыбной ловли на 10
+}
+
+Ebonthodian: {
+	Tooltip: "«Водится в искажении»"
+	DisplayName: Эбонтод
+}
+
+Heartang: {
+	DisplayName: Кардиохирург
+	Tooltip: "«Водится в подземелье»"
+}
+
+BonePole: {
+	DisplayName: Костяная удочка
+	Tooltip: Запускает сразу 2 поплавка
+}
+
+ChlorophyteFilletKnife: {
+	DisplayName: Хлорофитовый филейный нож
+	Tooltip:
+		'''
+		Разрезает рыбу на составляющие
+		Справляется с большинством рыб и даёт дополнительные составляющие
+		'''
+}
+
+MoltenFilletKnife: {
+	DisplayName: Пылающий филейный нож
+	Tooltip:
+		'''
+		Разрезает рыбу на составляющие
+		При разделке даёт дополнительные составляющие
+		'''
+}
+
+InterstellarCaster: {
+	DisplayName: Космический ловец
+	Tooltip:
+		'''
+		Запускает сразу 2 поплавка
+		Может добывать руду в определённых биомах
+		'''
+}
+
+SporeSnapper: {
+	Tooltip: "«Водится в подземных джунглях»"
+	DisplayName: Споровый луциан
+}
+
+Gobee: {
+	Tooltip: "«Водится в меду»"
+	DisplayName: Бычок-медовик
+}
+
+Asterovy: {
+	Tooltip: "«Водится возле метеорита»"
+	DisplayName: Рыба-метеор
+}
+
+Stardustfish: {
+	Tooltip: "«Водится в космосе после прохождения лунных событий»"
+	DisplayName: Рыба звёздной пыли
+}
+
+Solamola: {
+	Tooltip: "«Водится в космосе после прохождения лунных событий»"
+	DisplayName: Солнечная рыба-луна
+}
+
+Nebulagazer: {
+	Tooltip: "«Водится в космосе после прохождения лунных событий»"
+	DisplayName: Туманный звездочёт
+}
+
+LihzahrdFilletKnife: {
+	DisplayName: Филейный нож ящеров
+	Tooltip:
+		'''
+		Разрезает рыбу на составляющие
+		Справляется с любой рыбой
+		'''
+}
+
+Vortexeye: {
+	DisplayName: Глаз вихря
+	Tooltip: "«Водится в космосе после прохождения лунных событий»"
+}
+
+SeaCarrot: {
+	DisplayName: Морская морковка
+	Tooltip: Призывает морского слизня
+}
+
+SantaRay: {
+	Tooltip: "«Водится в тундре»"
+	DisplayName: Скат-мороз
+}
+
+AetherianAngler: {
+	Tooltip: "«Водится в эфире»"
+	DisplayName: Эфирный удильщик
+}
+
+Ectolione: {
+	Tooltip: "«Водится на кладбище»"
+	DisplayName: Морской эктолев
+}
+
+BassStatueItem: {
+	DisplayName: Статуя окуня
+	Tooltip: ""
+}
+
+SeaUrchin: {
+	DisplayName: Морской ёж
+	Tooltip: Выпускает отравляющий врагов шип при попадании
+}
+
+PreparedUrchin: {
+	DisplayName: Приготовленный морской ёж
+	Tooltip:
+		'''
+		Значительно увеличивает все характеристики
+		Подсвечивает название улова во время рыбалки
+		«Кто-то скажет, что это деликатес»
+		'''
+}
+
+HellstoneSnail: {
+	DisplayName: Адокаменная улитка
+	Tooltip: "«Водится в преисподней»"
+}
+
+Marbeel: {
+	DisplayName: Мраморный угорь
+	Tooltip: "«Водится в мраморных пещерах»"
+}
+
+LavaSharkBanner: {
+	DisplayName: Знамя лавовой акулы
+	Tooltip: Игроки поблизости получают бонус против: Лавовая акула
+}
+
+PortableShopBox: {
+	DisplayName: Карманный киоск
+	Tooltip: На время призывает рыбный киоск, продающий различные товары
+}
+
+TrainingRod: {
+	DisplayName: Тренировочная удочка
+	Tooltip: Крайне слаба, но хотя бы леска не порвётся
+}
+
+AnglerLantern: {
+	DisplayName: Фонарь удильщика
+	Tooltip: Призывает дружественную рыбу-удильщика, освещающую ваш путь
+}
+
+BottomlessChumBucket: {
+	DisplayName: Бездонное ведро с наживкой
+	Tooltip:
+		'''
+		Содержит неограниченное количество наживки
+		Бросьте в воду сразу 3 наживки, чтобы увеличить навык рыбной ловли
+		'''
+}
+
+ChlorophyteFishingRod: {
+	DisplayName: Хлорофитовая удочка
+	Tooltip: ""
+}
+
+CorruptionLockBox: {
+	DisplayName: Сокровища искажения
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CrimsonLockBox: {
+	DisplayName: Сокровища багрянца
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+DesertLockBox: {
+	DisplayName: Сокровища пустыни
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+FrozenLockBox: {
+	DisplayName: Ледяные сокровища
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+HallowedLockBox: {
+	DisplayName: Сокровища освящения
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+JungleLockBox: {
+	DisplayName: Сокровища джунглей
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+LockBoxMold: {
+	DisplayName: Литая коробка сокровищ
+	Tooltip: Объедините с ключом биома, чтобы получить редкое оружие
+}
+
+StablizingPotion: {
+	Tooltip: Наделяет невосприимчивостью к сильным ветрам
+	DisplayName: Зелье стабилизации
+}
+
+Woodskip: {
+	Tooltip: "«Водится в лесу»"
+	DisplayName: Древесный тунец
+}
+
+AncientSquid: {
+	Tooltip: "«Водится в пустыне во время песчаной бури»"
+	DisplayName: Древний кальмар
+}
+
+HeartBobber: {
+	Tooltip:
+		'''
+		Повышает навык рыбной ловли на 10
+		Ваш поплавок теперь светится
+		'''
+	DisplayName: Поплавок из кристального сердца
+}
+
+ManaBobber: {
+	Tooltip:
+		'''
+		Повышает навык рыбной ловли на 10
+		Ваш поплавок теперь светится
+		'''
+	DisplayName: Поплавок из кристала маны
+}
+
+LifeBobber: {
+	Tooltip:
+		'''
+		Повышает навык рыбной ловли на 10
+		Ваш поплавок теперь светится
+		'''
+	DisplayName: Поплавок из фрукта жизни
+}
+
+Squid: {
+	DisplayName: Кальмар
+	Tooltip: "«Водится в океане»"
+}
+
+Calamari: {
+	DisplayName: Приготовленный кальмар
+	Tooltip:
+		'''
+		Умеренно увеличивает все характеристики
+		Увеличивает шанс поймать ящик при рыбалке
+		«Особенно вкусно с лимоном»
+		'''
+}
+
+BaxterBobber: {
+	DisplayName: Поплавок Бакстера
+	Tooltip:
+		'''
+		Повышает навык рыбной ловли на 10
+		Ваш поплавок теперь светится, и вообще, это мой кот
+		'''
+}
+
+GoldfishMirror: {
+	DisplayName: Мечтательное зеркало
+	Tooltip: Посмотрите в рыбу, чтобы вернуться домой
+}
+
+GoldfishingRod: {
+	DisplayName: Золотая рыба-ловная снасть
+	Tooltip: Запускает сразу 2 поплавка
+}
+
+BudGold: {
+	DisplayName: Золотой Бад
+	Tooltip:
+		'''
+		Немного повышает навыки ближнего боя и понижает защиту
+		«Этот напиток... точно не безалкогольный...»
+		'''
+}
+
+HappyNimbus: {
+	DisplayName: Счастливая тучка
+	Tooltip:
+		'''
+		Повышает навык рыбной ловли во время дождя
+		«Наконец-то она не выглядит такой хмурой»
+		'''
+}
+
+FleshySpewer: {
+	DisplayName: Мясной плевун
+	Tooltip:
+		'''
+		Плюётся нескончаемым потоком крови
+		«Откуда в ней вообще столько крови?»
+		'''
+}
+
+Oarfish: {
+	DisplayName: Сельдяной король
+	Tooltip:
+		'''
+		Легендарная рыба, изредка появляющаяся на дне океана
+		«Как ты вообще смог поместить его в карман?!»
+		'''
+}
+
+SunRay: {
+	DisplayName: Солнечный скат
+	Tooltip: "«Водится в космосе днём»"
+}
+
+TrashHook: {
+	DisplayName: Мусорный крючок
+	Tooltip:
+		'''
+		Повышает навык рыбной ловли на 10, но излучает неприятный запах.
+		«На вид неплох, но что за запах...»
+		'''
+}
+
+Searobin: {
+	DisplayName: Морской петух
+	Tooltip:
+		'''
+		Легендарная рыба, изредка появляющаяся в лаве
+		«Мал, да сердцем горяч»
+		'''
+}
+
+RegalMoonsquid: {
+	DisplayName: Величественный лунный кальмар
+	Tooltip:
+		'''
+		Легендарная рыба, изредка появляющаяся в космосе, после победы над Лунным лордом
+		«Король всех головоногих»
+		'''
+}
+
+OarfishTrophyItem: {
+	DisplayName: Трофей сельдяного короля
+	Tooltip: ""
+}
+
+DreadnautilusTrophyItem: {
+	DisplayName: Трофей Дреднаутилуса
+	Tooltip: ""
+}
+
+RegalMoonsquidTrophyItem: {
+	DisplayName: Трофей величественного лунного кальмара
+	Tooltip: ""
+}
+
+SearobinTrophyItem: {
+	DisplayName: Трофей морского петуха
+	Tooltip: ""
+}
+
+MoltenRod: {
+	Tooltip: Позволяет рыбачить в лаве
+	DisplayName: Пылающая удочка
+}
+
+FishMush: {
+	Tooltip: Комок плоти разных видов рыб... как мерзко...
+	DisplayName: Комок рыбьей плоти
+}
+
+FishFlakes: {
+	Tooltip: ""
+	DisplayName: Рыбные хлопья
+}
+
+EtherianSeadragon: {
+	DisplayName: Эфирный морской дракон
+	Tooltip: "«Ловится во время прибытия армии Древних, после победы над Големом»"
+}
+
+FlaskofBetsy: {
+	DisplayName: Флакон с дыханием дракона
+	Tooltip: Атаки хлыстов и оружия ближнего боя накладывают дебафф «Проклятье Бэтси»
+}
+
+WaterBombDispenserItem: {
+	Tooltip: Поместите банку воды внутрь и запустите активированную водяную бомбу
+	DisplayName: Сборщик водяных бомб
+}
+
+HallowedDredger: {
+	DisplayName: Святой рыболовный магнит
+	Tooltip: Повышает шанс поймать ящики
+}
+
+ClamBanner: {
+	Tooltip: Игроки поблизости получают бонус против: Моллюск
+	DisplayName: Знамя моллюска
+}
+
+ClamShell: {
+	Tooltip: Очень прочная ракушка, на вкус напоминающая морскую воду...
+	DisplayName: Ракушка моллюска
+}
+
+ShellstoneBrickItem: {
+	DisplayName: Ракушечный кирпич
+	Tooltip: ""
+}
+
+ShellstoneCandleItem: {
+	Tooltip: ""
+	DisplayName: Свеча из ракушечного кирпича
+}
+
+ShellstoneDoorItem: {
+	Tooltip: ""
+	DisplayName: Дверь из ракушечного кирпича
+}
+
+ShellstoneChairItem: {
+	Tooltip: ""
+	DisplayName: Стул из ракушечного кирпича
+}
+
+ShellstoneLanternItem: {
+	DisplayName: Фонарь из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneTableItem: {
+	DisplayName: Стол из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneWallItem: {
+	DisplayName: Стена из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneLampItem: {
+	Tooltip: ""
+	DisplayName: Напольная лампа из ракушечного кирпича
+}
+
+ShellstoneChestItem: {
+	DisplayName: Сундук из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneWorkbenchItem: {
+	DisplayName: Верстак из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneSinkItem: {
+	Tooltip: ""
+	DisplayName: Раковина из ракушечного кирпича
+}
+
+ShellstoneCandelabraItem: {
+	DisplayName: Подсвечник из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneClockItem: {
+	Tooltip: ""
+	DisplayName: Часы из ракушечного кирпича
+}
+
+EnderPearl: {
+	DisplayName: Жемчуг края
+	Tooltip:
+		'''
+		«Это что ещё такое?»
+		«Жемчуг края. Если его кинуть, он перенесёт тебя, куда упал!»
+		«Ага, рассказывай.»
+		«*Бросок*»
+		«НЕЕЕЕЕЕЕТ!»
+		'''
+}
+
+ShellstonePianoItem: {
+	Tooltip: ""
+	DisplayName: Пианино из ракушечного кирпича
+}
+
+ShellstoneSofaItem: {
+	DisplayName: Диван из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneDresserItem: {
+	Tooltip: ""
+	DisplayName: Комод из ракушечного кирпича
+}
+
+ShellstoneChandelierItem: {
+	DisplayName: Люстра из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneBookcaseItem: {
+	Tooltip: ""
+	DisplayName: Книжный шкаф из ракушечного кирпича
+}
+
+ShellstoneBedItem: {
+	DisplayName: Кровать из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellstoneBathtubItem: {
+	Tooltip: ""
+	DisplayName: Ванна из ракушечного кирпича
+}
+
+ShellstonePlatformItem: {
+	DisplayName: Платформа из ракушечного кирпича
+	Tooltip: ""
+}
+
+ShellforgeItem: {
+	Tooltip: Используется для создания особых предметов
+	DisplayName: Ракушечный цех
+}
+
+BottledLava: {
+	Tooltip: В принципе это можно выпить... но всё же не стоит.
+	DisplayName: Банка лавы
+	RestoreLifeText: Mods.WaasephisFishingPlus.Items.BottledLava.RestoreLifeText
+}
+
+LavaBombDispenserItem: {
+	Tooltip:
+		'''
+		Поместите банку лавы внутрь и запустите активированную лавовую бомбу
+		«Скорее всего, долго он не проживёт»
+		'''
+	DisplayName: Сборщик лавовых бомб
+}
+
+HoneyBombDispenserItem: {
+	Tooltip: Поместите банку мёда внутрь и запустите активированную медовую бомбу
+	DisplayName: Сборщик медовых бомб
+}
+
+DryBombDispenserItem: {
+	Tooltip: Поместите пустую банку внутрь и запустите активированную осушающую бомбу
+	DisplayName: Сборщик осушающих бомб
+}
+
+PearlPurse: {
+	Tooltip: На конечной дистанции запускает жемчуг
+	DisplayName: Головоногий гасило
+}
+
+PearlMortar: {
+	Tooltip:
+		'''
+		Существует шанс вместо жемчужины выстрелить водяным пузырём, взрывающимся при контакте
+		«Такой не каждый удержит»
+		'''
+	DisplayName: Жемчугомёт
+}
+
+BaitBoxItem: {
+	DisplayName: Коробка с приманкой
+	Tooltip: Повышает навык рыбной ловли, уменьшает шанс потратить наживку и снижает частоту появления врагов
+}
+
+ClamClapper: {
+	Tooltip: Стреляет разрывающимся на капли взрывным пузырём
+	DisplayName: Щелкунчик
+}
+
+ClamTotem: {
+	Tooltip: Призывает моллюска
+	DisplayName: Тотем моллюска
+}
+
+ClamChestplate: {
+	DisplayName: Нагрудник моллюска
+	Tooltip:
+		'''
+		Увеличивает навык рыбной ловли на 4
+		Увеличивает урон на 10%
+		Увеличивает шанс критического удара на 5%
+		Враги чаще выбирают вас в качестве цели
+		'''
+}
+
+ClamGreaves: {
+	DisplayName: Поножи моллюска
+	Tooltip:
+		'''
+		Увеличивает навык рыбной ловли на 4
+		Уменьшает скорость передвижения на 5%
+		Наделяет способностью плавать
+		Враги чаще выбирают вас в качестве цели
+		'''
+}
+
+ClamHelmet: {
+	DisplayName: Шлем моллюска
+	Tooltip:
+		'''
+		Увеличивает навык рыбной ловли на 4
+		Увеличивает запас маны на 20
+		Источает слабое свечение при ношении
+		Враги чаще выбирают вас в качестве цели
+		'''
+}
+
+GlassAnomalocaris: {
+	DisplayName: Стеклянный аномалокарис
+	Tooltip: "«Водится в лаве в пустыне»"
+}
+
+GlassCandelabrolacarisItem: {
+	DisplayName: Стеклянный подсвечникарис
+	Tooltip:
+		'''
+		Хуже его названия может быть разве что его внешний вид...
+		У рыбака явно нет чувства стиля...
+		'''
+}
+
+LihzahrdCrateItem: {
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	DisplayName: Ящик ящеров
+}
+
+CryptCoffinItem: {
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	DisplayName: Гроб
+}
+
+BaxterByThePondItem: {
+	Tooltip: "«Waasephi»"
+	DisplayName: Картина «Бакстер у пруда»
+}
+
+AnglersLostPocketWatch: {
+	Tooltip:
+		'''
+		Останавливает таймер у задания рыбака при использовании
+		«Надеюсь, он не будет возражать...»
+		'''
+	DisplayName: Потерянные часы рыбака
+}
+
+FrigidLoach: {
+	DisplayName: Морозный вьюн
+	Tooltip: "«Ловится во время метели в хардмоде»"
+}
+
+GrassyGrouper: {
+	DisplayName: Заросший окунь
+	Tooltip: "«Ловится в ветреный день»"
+}
+
+PotSnailUGItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailCorruptionItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailTempleItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailJungleItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailIceItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailHellItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailDungeonItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+PotSnailDesertItem: {
+	DisplayName: Улитка в горшке
+	Tooltip:
+		'''
+		Киньте горшок и понадейтесь на удачу!
+		«Как грубо...»
+		'''
+}
+
+RedGelatin: {
+	DisplayName: Красное желе
+	Tooltip:
+		'''
+		Немного увеличивает все характеристики
+		Слегка повышает регенерацию здоровья
+		«На вкус как вишня»
+		'''
+}
+
+PurpleGelatin: {
+	Tooltip:
+		'''
+		Немного увеличивает все характеристики
+		Слегка повышает урон
+		«На вкус как виноград»
+		'''
+	DisplayName: Фиолетовое желе
+}
+
+GreenGelatin: {
+	Tooltip:
+		'''
+		Немного увеличивает все характеристики
+		Слегка повышает скорость передвижения
+		«На вкус как лайм»
+		'''
+	DisplayName: Зелёное желе
+}
+
+BlueGelatin: {
+	Tooltip:
+		'''
+		Немного увеличивает все характеристики
+		Слегка повышает защиту
+		«На вкус как черника»
+		'''
+	DisplayName: Синее желе
+}
+
+YellowGelatin: {
+	DisplayName: Жёлтое желе
+	Tooltip:
+		'''
+		Немного увеличивает все характеристики
+		Наделяет слабым свечением
+		«На вкус как лимон»
+		'''
+}
+
+TheSludge: {
+	Tooltip: "[c/000000:Разве не видно?! ЭТО МОЯ ][c/ff0000:ГРЯЗЬ][c/000000:!!!]"
+	DisplayName: Грязь
+}
+
+BaxterBeanItem: {
+	DisplayName: Милый Бакстер
+	Tooltip: Кто не захочет поставить себе Бакстера?
+}
+
+TrueCatFish: {
+	Tooltip: Удивительное создание!
+	DisplayName: Истинная кото-рыба
+}

@@ -1,0 +1,54 @@
+SeaSlugBuff: {
+	DisplayName: Sea Slug
+	Description: Technically it works, because Sea Slugs are called Sea Bunnies
+}
+
+AnglerFishBuff: {
+	DisplayName: Angler Fish
+	Description: A lot friendlier then expected...
+}
+
+StablizedBuff: {
+	Description: Immunity to strong winds
+	DisplayName: Stablized
+}
+
+BetsyCurseImbue: {
+	DisplayName: Betsy Curse Imbue
+	Description: Melee attacks inflict enemies with Betsy's Curse
+}
+
+TackleBoxBuff: {
+	DisplayName: Relaxed
+	Description: Increases fishing power, decreases chance to consume bait, and reduces enemy spawnrates
+}
+
+ClamMinionBuff: {
+	Description: The clam will fight for you
+	DisplayName: Clam Minion
+}
+
+MinorSwiftnessBuff: {
+	Description: 15% increased movement speed
+	DisplayName: Minor Swiftness
+}
+
+MinorShineBuff: {
+	Description: Emitting a small amount of light
+	DisplayName: Minor Shine
+}
+
+MinorRegenerationBuff: {
+	Description: Provides slight life regeneration
+	DisplayName: Minor Regeneration
+}
+
+MinorDefenseBuff: {
+	Description: Increases defense by 4
+	DisplayName: Minor Ironskin
+}
+
+MinorDamageBuff: {
+	Description: 5% increased damage
+	DisplayName: Minor Wrath
+}

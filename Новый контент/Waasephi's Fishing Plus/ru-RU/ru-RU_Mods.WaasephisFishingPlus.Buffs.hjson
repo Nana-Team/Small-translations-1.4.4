@@ -1,0 +1,54 @@
+SeaSlugBuff: {
+	DisplayName: Морской Слизень
+	Description: Технически всё верно, потому что морские кролики на самом деле морские слизни
+}
+
+AnglerFishBuff: {
+	DisplayName: Рыба-удильщик
+	Description: Он намного дружелюбнее, чем может показаться...
+}
+
+StablizedBuff: {
+	Description: Невосприимчивость к сильным ветрам
+	DisplayName: Стабилизация
+}
+
+BetsyCurseImbue: {
+	Description: Атаки ближнего боя накладывают дебафф «Проклятье Бэтси»
+	DisplayName: Смазанное оружие: дыхание дракона
+}
+
+TackleBoxBuff: {
+	DisplayName: На чиле
+	Description: Увеличивает навык рыбной ловли, уменьшает шанс потратить наживку и понижает частоту появления врагов
+}
+
+ClamMinionBuff: {
+	Description: За вас сражается моллюск
+	DisplayName: Моллюск
+}
+
+MinorSwiftnessBuff: {
+	Description: Скорость передвижения увеличена на 15%
+	DisplayName: Подвижность
+}
+
+MinorShineBuff: {
+	Description: Вы слегка светитесь
+	DisplayName: Подсвечивание
+}
+
+MinorRegenerationBuff: {
+	Description: Восстановление здоровья слегка увеличено
+	DisplayName: Заживление
+}
+
+MinorDefenseBuff: {
+	Description: Защита увеличена на 4
+	DisplayName: Прочная кожа
+}
+
+MinorDamageBuff: {
+	Description: Урон увеличен на 5%
+	DisplayName: Злость
+}

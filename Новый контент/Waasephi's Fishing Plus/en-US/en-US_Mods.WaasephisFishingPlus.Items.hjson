@@ -1,0 +1,955 @@
+FilletItemTooltip: This item can be filleted [i:WaasephisFishingPlus/FilletKnife]
+
+FilletingTableItem: {
+	DisplayName: Filleting Table
+	Tooltip: Used to turn fish into items
+}
+
+FilletKnife: {
+	DisplayName: Fillet Knife
+	Tooltip: Used to cut fish into resources
+}
+
+GalacticFilletKnife: {
+	DisplayName: Galactic Fillet Knife
+	Tooltip:
+		'''
+		Used to cut fish into resources
+		Can cut every fish and gives even more output
+		'''
+}
+
+RefinedFilletKnife: {
+	DisplayName: Refined Fillet Knife
+	Tooltip:
+		'''
+		Used to cut fish into resources
+		Can cut more fish then other knives
+		'''
+}
+
+OvergrownCrate: {
+	DisplayName: Overgrown Crate
+	Tooltip: Right Click to open
+}
+
+CrystalCatcher: {
+	DisplayName: Crystal Catcher
+	Tooltip: Casts 3 bobbers
+}
+
+CoralHeart: {
+	DisplayName: Coral Heart
+	Tooltip:
+		'''
+		Provides all fishing buffs and boosts fishing power
+		'Empowers the holders fishing capabilities'
+		'''
+}
+
+HandofCod: {
+	DisplayName: Hand of Cod
+	Tooltip: Is this the best you can possibly get?
+}
+
+Prismaline: {
+	DisplayName: Prismaline
+	Tooltip:
+		'''
+		Casts 5 Bobbers
+		'Only the Purest of Fisherman can wield such a rod'
+		'''
+}
+
+Mecherel: {
+	DisplayName: Mecherel
+	Tooltip: "'Caught Anywhere'"
+}
+
+Garnite: {
+	DisplayName: Garnite
+	Tooltip: "'Caught in Granite Caves'"
+}
+
+RegalScepter: {
+	DisplayName: Regal Scepter
+	Tooltip:
+		'''
+		Casts 4 Bobbers
+		'A Rod worthy of a King'
+		'''
+}
+
+FishFillet: {
+	DisplayName: Fish Fillet
+	Tooltip:
+		'''
+		Medium improvements to all stats
+		Increases Fishing Power for a short time
+		'A simple cut up fish'
+		'''
+}
+
+NeonScales: {
+	DisplayName: Neon Scales
+	Tooltip: Incredibly sparkly!
+}
+
+NeonScaleGreaves: {
+	DisplayName: Neon Scale Greaves
+	Tooltip:
+		'''
+		Increases fishing skill by 2
+		Allows quick travel in water
+		'''
+}
+
+NeonScalemail: {
+	DisplayName: Neon Scalemail
+	Tooltip:
+		'''
+		Increases fishing skill by 4
+		Grants the ability to swim
+		'''
+}
+
+NeonScaleMask: {
+	DisplayName: Neon Scale Mask
+	Tooltip:
+		'''
+		Increases fishing skill by 2
+		Greatly extends underwater breathing
+		'''
+}
+
+SharkTooth: {
+	DisplayName: Shark Tooth
+	Tooltip: Its very sharp
+}
+
+SharkToothPickaxe: {
+	DisplayName: Shark Tooth Pickaxe
+	Tooltip: As it should be
+}
+
+TrawlerHat: {
+	DisplayName: Trawler Hat
+	Tooltip: Increases fishing skill by 10
+}
+
+TrawlerPants: {
+	DisplayName: Trawler Pants
+	Tooltip: Increases fishing skill by 10
+}
+
+TrawlerVest: {
+	DisplayName: Trawler Vest
+	Tooltip: Increases fishing skill by 10
+}
+
+Ebonthodian: {
+	Tooltip: "'Caught in the Corruption'"
+	DisplayName: Ebonthodii
+}
+
+Heartang: {
+	DisplayName: Heartang
+	Tooltip: "'Caught Underground'"
+}
+
+BonePole: {
+	DisplayName: Bone Pole
+	Tooltip: Casts 2 bobbers
+}
+
+ChlorophyteFilletKnife: {
+	DisplayName: Chlorophyte Fillet Knife
+	Tooltip:
+		'''
+		Used to cut fish into resources
+		Can cut more fish then other knives and gives more output
+		'''
+}
+
+MoltenFilletKnife: {
+	DisplayName: Molten Fillet Knife
+	Tooltip:
+		'''
+		Used to cut fish into resources
+		Gives more output then a regular knife
+		'''
+}
+
+InterstellarCaster: {
+	DisplayName: Interstellar Caster
+	Tooltip:
+		'''
+		Casts 2 bobbers
+		Allows catching ores in specific biomes
+		'''
+}
+
+SporeSnapper: {
+	Tooltip: "'Caught in the Underground Jungle'"
+	DisplayName: Spore Snapper
+}
+
+Gobee: {
+	Tooltip: "'Caught in Honey'"
+	DisplayName: Gobee
+}
+
+Asterovy: {
+	Tooltip: "'Caught near a Meteorite'"
+	DisplayName: Asterovy
+}
+
+Stardustfish: {
+	Tooltip: "'Caught in Space after a Lunar Invasion'"
+	DisplayName: Stardustfish
+}
+
+Solamola: {
+	Tooltip: "'Caught in Space after a Lunar Invasion'"
+	DisplayName: Solamola
+}
+
+Nebulagazer: {
+	Tooltip: "'Caught in Space after a Lunar Invasion'"
+	DisplayName: Nebulagazer
+}
+
+LihzahrdFilletKnife: {
+	DisplayName: Lihzahrd Fillet Knife
+	Tooltip:
+		'''
+		Used to cut fish into resources
+		Can cut every fish
+		'''
+}
+
+Vortexeye: {
+	DisplayName: Vortexeye
+	Tooltip: "'Caught in Space after a Lunar Invasion'"
+}
+
+SeaCarrot: {
+	DisplayName: Sea Carrot
+	Tooltip: Summons a pet Sea Slug
+}
+
+SantaRay: {
+	Tooltip: "'Caught in the Tundra'"
+	DisplayName: Santa Ray
+}
+
+AetherianAngler: {
+	Tooltip: "'Caught in the Aether'"
+	DisplayName: Aetherian Angler
+}
+
+Ectolione: {
+	Tooltip: "'Caught in a Graveyard'"
+	DisplayName: Ectolione
+}
+
+BassStatueItem: {
+	DisplayName: Bass Statue
+	Tooltip: ""
+}
+
+SeaUrchin: {
+	DisplayName: Sea Urchin
+	Tooltip: Hitting an enemy breaks off a spike that envenoms the target
+}
+
+PreparedUrchin: {
+	DisplayName: Prepared Urchin
+	Tooltip:
+		'''
+		Major improvements to all stats
+		Allows you to detect hooked fish
+		'Some say it's a delicacy'
+		'''
+}
+
+HellstoneSnail: {
+	DisplayName: Hellstone Snail
+	Tooltip: "'Caught in the Underworld'"
+}
+
+Marbeel: {
+	DisplayName: Marbeel
+	Tooltip: "'Caught in Marble Caves'"
+}
+
+LavaSharkBanner: {
+	DisplayName: Lava Shark Banner
+	Tooltip: Nearby players get a bonus against: Lava Shark
+}
+
+PortableShopBox: {
+	DisplayName: Portable Shop Box
+	Tooltip: Summons a temporary fish stand to sell items to
+}
+
+TrainingRod: {
+	DisplayName: Training Rod
+	Tooltip: Very weak, but the line cannot snap
+}
+
+AnglerLantern: {
+	DisplayName: Angler Lantern
+	Tooltip: Summons a friendly angler fish to light the way
+}
+
+BottomlessChumBucket: {
+	DisplayName: Bottomless Chum Bucket
+	Tooltip:
+		'''
+		Contains an endless amount of chum
+		Tosses 3 balls of chum to increase fishing power in water
+		'''
+}
+
+ChlorophyteFishingRod: {
+	DisplayName: Chlorophyte Fishing Rod
+	Tooltip: ""
+}
+
+CorruptionLockBox: {
+	DisplayName: Corruption Lock Box
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+CrimsonLockBox: {
+	DisplayName: Crimson Lock Box
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+DesertLockBox: {
+	DisplayName: Desert Lock Box
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+FrozenLockBox: {
+	DisplayName: Frozen Lock Box
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+HallowedLockBox: {
+	DisplayName: Hallowed Lock Box
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+JungleLockBox: {
+	DisplayName: Jungle Lock Box
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+LockBoxMold: {
+	DisplayName: Lock Box Mold
+	Tooltip: Combine with a biome key to acquire rare weaponry
+}
+
+StablizingPotion: {
+	Tooltip: Provides immunity to the wind of sandstorms
+	DisplayName: Stablizing Potion
+}
+
+Woodskip: {
+	Tooltip: "'Caught in the Forest'"
+	DisplayName: Woodskip
+}
+
+AncientSquid: {
+	Tooltip: "'Caught during a Sandstorm'"
+	DisplayName: Ancient Squid
+}
+
+HeartBobber: {
+	Tooltip:
+		'''
+		Increases fishing power by 10
+		Your bobber now glows and emits particles
+		'''
+	DisplayName: Heart Crystal Fishing Bobber
+}
+
+ManaBobber: {
+	Tooltip:
+		'''
+		Increases fishing power by 10
+		Your bobber now glows and emits particles
+		'''
+	DisplayName: Mana Crystal Fishing Bobber
+}
+
+LifeBobber: {
+	Tooltip:
+		'''
+		Increases fishing power by 10
+		Your bobber now glows and emits particles
+		'''
+	DisplayName: Life Fruit Fishing Bobber
+}
+
+Squid: {
+	DisplayName: Squid
+	Tooltip: "'Caught in the Ocean'"
+}
+
+Calamari: {
+	DisplayName: Calamari
+	Tooltip:
+		'''
+		Moderate improvements to all stats
+		Increases the chance to get a crate
+		'Goes great with some lemon'
+		'''
+}
+
+BaxterBobber: {
+	DisplayName: Baxter Fishing Bobber
+	Tooltip:
+		'''
+		Increases fishing power by 10
+		Your bobber now glows and is my cat
+		'''
+}
+
+GoldfishMirror: {
+	DisplayName: Goldfish Mirror
+	Tooltip: Gaze into the fish to return home
+}
+
+GoldfishingRod: {
+	DisplayName: Goldfish-ing Rod
+	Tooltip: Casts 2 bobbers
+}
+
+BudGold: {
+	DisplayName: Bud Gold
+	Tooltip:
+		'''
+		Minor improvements to melee stats & lowered defense
+		'This stuff is... highly alcoholic...'
+		'''
+}
+
+HappyNimbus: {
+	DisplayName: Happy Nimbus
+	Tooltip:
+		'''
+		Increases fishing power while it is raining
+		'He finally took a chill pill'
+		'''
+}
+
+FleshySpewer: {
+	DisplayName: Fleshy Spewer
+	Tooltip:
+		'''
+		Spits out an endless supply of blood
+		'Where does it even get this much blood?'
+		'''
+}
+
+Oarfish: {
+	DisplayName: Oarfish
+	Tooltip:
+		'''
+		A Legendary fish that is rarely found under the ocean.
+		'So big you can barely fit it in your pocket!'
+		'''
+}
+
+SunRay: {
+	DisplayName: Sun Ray
+	Tooltip: "'Caught in Space during the Day'"
+}
+
+TrashHook: {
+	DisplayName: Trash Hook
+	Tooltip:
+		'''
+		Increases your fishing power by 10, but makes you smell bad.
+		'Beauty is in the eye of the beholder, smell however is not...'
+		'''
+}
+
+Searobin: {
+	DisplayName: Searobin
+	Tooltip:
+		'''
+		A Legendary fish that is found rarely in Lava.
+		'Little guy, massive heat.'
+		'''
+}
+
+RegalMoonsquid: {
+	DisplayName: Regal Moonsquid
+	Tooltip:
+		'''
+		A Legendary fish that is found rarely in space after the Moon Lord is defeated.
+		'The King of the Cephalopods.'
+		'''
+}
+
+OarfishTrophyItem: {
+	DisplayName: Oarfish Trophy
+	Tooltip: ""
+}
+
+DreadnautilusTrophyItem: {
+	DisplayName: Dreadnautilus Trophy
+	Tooltip: ""
+}
+
+RegalMoonsquidTrophyItem: {
+	DisplayName: Regal Moonsquid Trophy
+	Tooltip: ""
+}
+
+SearobinTrophyItem: {
+	DisplayName: Searobin Trophy
+	Tooltip: ""
+}
+
+MoltenRod: {
+	Tooltip: Allows you to fish in lava
+	DisplayName: Molten Rod
+}
+
+FishMush: {
+	Tooltip: A coagulation of an unknown amount of fish... gross...
+	DisplayName: Ball of Fish Mush
+}
+
+FishFlakes: {
+	Tooltip: ""
+	DisplayName: Fish Flakes
+}
+
+EtherianSeadragon: {
+	DisplayName: Etherian Seadragon
+	Tooltip: "'Caught during an Old One's Army after Golem has been defeated'"
+}
+
+FlaskofBetsy: {
+	DisplayName: Flask of Betsy
+	Tooltip: Melee and Whip attacks inflict enemies with Betsy's Curse
+}
+
+WaterBombDispenserItem: {
+	Tooltip: Consumes Bottled Water and launches Wet Bombs
+	DisplayName: Wet Bomb Dispenser
+}
+
+HallowedDredger: {
+	DisplayName: Hallowed Dredger
+	Tooltip: Has an increased chance to catch Crates
+}
+
+ClamBanner: {
+	Tooltip: Nearby players get a bonus against: Clam
+	DisplayName: Clam Banner
+}
+
+ClamShell: {
+	Tooltip: A very tough shell, tastes like seawater...
+	DisplayName: Clam Shell
+}
+
+ShellstoneBrickItem: {
+	DisplayName: Shellstone Brick
+	Tooltip: ""
+}
+
+ShellstoneCandleItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Candle
+}
+
+ShellstoneDoorItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Door
+}
+
+ShellstoneChairItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Chair
+}
+
+ShellstoneLanternItem: {
+	DisplayName: Shellstone Lantern
+	Tooltip: ""
+}
+
+ShellstoneTableItem: {
+	DisplayName: Shellstone Table
+	Tooltip: ""
+}
+
+ShellstoneWallItem: {
+	DisplayName: Shellstone Wall
+	Tooltip: ""
+}
+
+ShellstoneLampItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Lamp
+}
+
+ShellstoneChestItem: {
+	DisplayName: Shellstone Chest
+	Tooltip: ""
+}
+
+ShellstoneWorkbenchItem: {
+	DisplayName: Shellstone Workbench
+	Tooltip: ""
+}
+
+ShellstoneSinkItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Sink
+}
+
+ShellstoneCandelabraItem: {
+	DisplayName: Shellstone Candelabra
+	Tooltip: ""
+}
+
+ShellstoneClockItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Clock
+}
+
+EnderPearl: {
+	DisplayName: Ender Pearl
+	Tooltip:
+		'''
+		'What's this junk?'
+		'An ENDER PEARL, teleports you to wherever you throw it!'
+		'Yeah right.'
+		'NOOOOOOO!'
+		'''
+}
+
+ShellstonePianoItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Piano
+}
+
+ShellstoneSofaItem: {
+	DisplayName: Shellstone Sofa
+	Tooltip: ""
+}
+
+ShellstoneDresserItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Dresser
+}
+
+ShellstoneChandelierItem: {
+	DisplayName: Shellstone Chandelier
+	Tooltip: ""
+}
+
+ShellstoneBookcaseItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Bookcase
+}
+
+ShellstoneBedItem: {
+	DisplayName: Shellstone Bed
+	Tooltip: ""
+}
+
+ShellstoneBathtubItem: {
+	Tooltip: ""
+	DisplayName: Shellstone Bathtub
+}
+
+ShellstonePlatformItem: {
+	DisplayName: Shellstone Platform
+	Tooltip: ""
+}
+
+ShellforgeItem: {
+	Tooltip: Used for special crafting
+	DisplayName: Shellforge
+}
+
+BottledLava: {
+	Tooltip: While you COULD drink this... you probably shouldn't.
+	DisplayName: Bottled Lava
+	RestoreLifeText: Mods.WaasephisFishingPlus.Items.BottledLava.RestoreLifeText
+}
+
+LavaBombDispenserItem: {
+	Tooltip:
+		'''
+		Consumes Bottled Lava and launches Lava Bombs
+		'Likely to destroy itself'
+		'''
+	DisplayName: Lava Bomb Dispenser
+}
+
+HoneyBombDispenserItem: {
+	Tooltip: Consumes Bottled Honey and launches Honey Bombs
+	DisplayName: Honey Bomb Dispenser
+}
+
+DryBombDispenserItem: {
+	Tooltip: Consumes Empty Bottles and launches Dry Bombs
+	DisplayName: Dry Bomb Dispenser
+}
+
+PearlPurse: {
+	Tooltip: Launches a pearl at max distance
+	DisplayName: Pearl Purse
+}
+
+PearlMortar: {
+	Tooltip:
+		'''
+		Has a chance to shoot a bursting bubble instead of a pearl
+		'Not that easy to hold'
+		'''
+	DisplayName: Pearl Mortar
+}
+
+BaitBoxItem: {
+	DisplayName: Bait Box
+	Tooltip: Increases fishing power, decreases chance to consume bait, and reduces enemy spawnrates
+}
+
+ClamClapper: {
+	Tooltip: Shoots a bubble that bursts into streams of water
+	DisplayName: Clam Clapper
+}
+
+ClamTotem: {
+	Tooltip: Summons a clam to fight for you
+	DisplayName: Clam Totem
+}
+
+ClamChestplate: {
+	DisplayName: Clam Chestplate
+	Tooltip:
+		'''
+		Increases fishing skill by 4
+		10% increased damage
+		5% increased critical strike chance
+		Enemies are more likely to target you
+		'''
+}
+
+ClamGreaves: {
+	DisplayName: Clam Greaves
+	Tooltip:
+		'''
+		Increases fishing skill by 4
+		5% reduced movement speed
+		Grants the ability to swim
+		Enemies are more likely to target you
+		'''
+}
+
+ClamHelmet: {
+	DisplayName: Clam Helmet
+	Tooltip:
+		'''
+		Increases fishing skill by 4
+		Increases maximum mana by 20
+		Provides a small amount of light when worn
+		Enemies are more likely to target you
+		'''
+}
+
+GlassAnomalocaris: {
+	DisplayName: Glass Anomalocaris
+	Tooltip: "'Caught in Lava in the Desert'"
+}
+
+GlassCandelabrolacarisItem: {
+	DisplayName: Glass Candelabrolacaris
+	Tooltip:
+		'''
+		The only thing worse then its name is the way it looks...
+		The Angler does NOT have a good sense of style...
+		'''
+}
+
+LihzahrdCrateItem: {
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	DisplayName: Lihzahrd Crate
+}
+
+CryptCoffinItem: {
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+	DisplayName: Crypt Coffin
+}
+
+BaxterByThePondItem: {
+	Tooltip: "'Waasephi'"
+	DisplayName: Baxter By The Pond
+}
+
+AnglersLostPocketWatch: {
+	Tooltip:
+		'''
+		Cycles the current Angler Quest on use
+		'I don't think he will mind if you keep this...'
+		'''
+	DisplayName: Angler's Lost Pocket Watch
+}
+
+FrigidLoach: {
+	DisplayName: Frigid Loach
+	Tooltip: "'Caught during a Blizzard in Hardmode'"
+}
+
+GrassyGrouper: {
+	DisplayName: Grassy Grouper
+	Tooltip: "'Caught during a Windy Day'"
+}
+
+PotSnailUGItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailCorruptionItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailTempleItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailJungleItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailIceItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailHellItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailDungeonItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+PotSnailDesertItem: {
+	DisplayName: Potted Snail
+	Tooltip:
+		'''
+		Throw the Pot on the ground to see what you get!
+		'How rude...'
+		'''
+}
+
+RedGelatin: {
+	DisplayName: Red Gelatin
+	Tooltip:
+		'''
+		Minor improvements to all stats
+		Slightly increases life regeneration
+		'Tastes like cherries'
+		'''
+}
+
+PurpleGelatin: {
+	Tooltip:
+		'''
+		Minor improvements to all stats
+		Slightly increases damage
+		'Tastes like grapes'
+		'''
+	DisplayName: Purple Gelatin
+}
+
+GreenGelatin: {
+	Tooltip:
+		'''
+		Minor improvements to all stats
+		Slightly increases movement speed
+		'Tastes like limes'
+		'''
+	DisplayName: Green Gelatin
+}
+
+BlueGelatin: {
+	Tooltip:
+		'''
+		Minor improvements to all stats
+		Slightly increases defense
+		'Tastes like blueberries'
+		'''
+	DisplayName: Blue Gelatin
+}
+
+YellowGelatin: {
+	DisplayName: Yellow Gelatin
+	Tooltip:
+		'''
+		Minor improvements to all stats
+		Emits a slight aura of light
+		'Tastes like lemons'
+		'''
+}
+
+TheSludge: {
+	Tooltip: "[c/000000:Excuse me?! That's my ][c/ff0000:SLUDGE][c/000000:!!!]"
+	DisplayName: The Sludge
+}
+
+BaxterBeanItem: {
+	DisplayName: Baxter Bean
+	Tooltip: A placeable Baxter, you like Baxter
+}
+
+TrueCatFish: {
+	Tooltip: What a wonderous creature!
+	DisplayName: True Cat Fish
+}

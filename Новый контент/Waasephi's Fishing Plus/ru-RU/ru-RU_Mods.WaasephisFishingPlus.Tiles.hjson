@@ -1,0 +1,28 @@
+ShellstoneDresser: {
+	ContainerName: Комод из ракушечного кирпича
+	MapEntry: Комод
+}
+
+ShellstoneChest.MapEntry: Сундук из ракушечного кирпича
+ShellstoneCandelabra.MapEntry: Подсвечник из ракушечного кирпича
+ShellstoneCandle.MapEntry: Свеча из ракушечного кирпича
+ShellstoneChair.MapEntry: Стул из ракушечного кирпича
+ShellstoneClock.MapEntry: Напольные часы из ракушечного кирпича
+ShellstoneDoorClosed.MapEntry: Закрытая дверь из ракушечного кирпича
+ShellstoneDoorOpen.MapEntry: Открытая дверь из ракушечного кирпича
+ShellstoneLamp.MapEntry: Напольная лампа из ракушечного кирпича
+ShellstoneLantern.MapEntry: Фонарь из ракушечного кирпича
+ShellstonePiano.MapEntry: Пианино из ракушечного кирпича
+ShellstoneSink.MapEntry: Раковина из ракушечного кирпича
+ShellstoneSofa.MapEntry: Диван из ракушечного кирпича
+ShellstoneTable.MapEntry: Стол из ракушечного кирпича
+ShellstoneWorkbench.MapEntry: Верстак из ракушечного кирпича
+FilletingTable.MapEntry: Разделочный стол
+WaterBombDispenser.MapEntry: Сборщик водяных бомб
+Shellforge.MapEntry: Ракушечный цех
+LavaBombDispenser.MapEntry: Сборщик лавовых бомб
+HoneyBombDispenser.MapEntry: Сборщик медовых бомб
+DryBombDispenser.MapEntry: Сборщик осушающих бомб
+BaitBox.MapEntry: Коробка с приманкой
+GlassCandelabrolacaris.MapEntry: Стеклянный подсвечникарис
+BaxterBean.MapEntry: Милый Бакстер

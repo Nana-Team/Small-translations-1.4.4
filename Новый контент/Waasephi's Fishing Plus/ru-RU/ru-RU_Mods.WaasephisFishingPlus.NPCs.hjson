@@ -1,0 +1,25 @@
+BassCritter.DisplayName: "{$ItemName.Bass}"
+FlounderCritter.DisplayName: "{$ItemName.Flounder}"
+AtlanticCodCritter.DisplayName: Атлантическая треска
+ShrimpCritter.DisplayName: "{$ItemName.Shrimp}"
+LavaShark.DisplayName: Лавовая акула
+PortableShop.DisplayName: Рыбный киоск
+BombfishCritter.DisplayName: Рыба-бомба
+NeonTetraCritter.DisplayName: "{$ItemName.NeonTetra}"
+EbonkoiCritter.DisplayName: "{$ItemName.Ebonkoi}"
+CrimsonTigerfishCritter.DisplayName: "{$ItemName.CrimsonTigerfish}"
+PrismiteCritter.DisplayName: "{$ItemName.Prismite}"
+SpecularFishCritter.DisplayName: "{$ItemName.SpecularFish}"
+DamselFishCritter.DisplayName: Рыба-ласточка
+Clam.DisplayName: Моллюск
+ClamPearl.DisplayName: Моллюск
+ClamEnderPearl.DisplayName: Моллюск края
+PotSnailUG.DisplayName: Улитка с горшком
+PotSnailCrimson.DisplayName: Улитка с горшком?
+PotSnailCorruption.DisplayName: Улитка с горшком
+PotSnailTemple.DisplayName: Улитка с горшком
+PotSnailJungle.DisplayName: Улитка с горшком
+PotSnailIce.DisplayName: Улитка с горшком
+PotSnailHell.DisplayName: Улитка с горшком
+PotSnailDungeon.DisplayName: Улитка с горшком
+PotSnailDesert.DisplayName: Улитка с горшком
